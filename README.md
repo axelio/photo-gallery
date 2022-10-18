@@ -1,0 +1,1 @@
+Old React project - photo gallery mechanism.

@@ -1,0 +1,31 @@
+.photos {
+    max-width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px auto 25px auto;
+    justify-content: center;
+}
+
+.thumbnail {
+    max-width: 300px;
+    max-height: 300px;
+    margin: 10px 25px;
+}
+
+.thumbnail img {
+    width: 100%;
+    outline: 1px solid #d6d6d6;
+}
+
+.spinnerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 450px);
+}
+
+@media (max-width: 425px) {
+    .thumbnail {
+        margin: 10px 0;
+    }
+}

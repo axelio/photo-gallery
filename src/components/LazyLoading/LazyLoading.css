@@ -1,0 +1,23 @@
+.loadMoreBtn {
+	text-transform: uppercase;
+	background: white;
+	color: black;
+	height: 80px;
+	width: 300px;
+	font-size: 30px;
+	font-weight: bold;
+	border: 1px solid black;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px auto 0px auto;
+	letter-spacing: 2px;
+	box-shadow: 0px 10px 14px -7px #41474b;
+	border-radius: 8px;
+}
+
+.loadMoreBtn:active {
+	position: relative;
+	top: 1px;
+}
